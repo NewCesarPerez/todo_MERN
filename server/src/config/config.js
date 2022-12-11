@@ -5,6 +5,7 @@ dotenv.config()
 export default{
     port:process.env.PORT,
     mongoAtlas:process.env.MONGO_ATLAS_URL,
-    secret:process.env.SECRET
+    secret:process.env.SECRET,
+    dataBase:process.env.DATABASE
 
 }
